@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Learning and 1-bit Compressed Sensing under Asymmetric Noise | COLT 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Learning and 1-bit Compressed Sensing under Asymmetric Noise">
+
+  <meta name="citation_author" content="Awasthi, Pranjal">
+
+  <meta name="citation_author" content="Balcan, Maria-Florina">
+
+  <meta name="citation_author" content="Haghtalab, Nika">
+
+  <meta name="citation_author" content="Zhang, Hongyang">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="29th Annual Conference on Learning Theory">
+<meta name="citation_firstpage" content="152">
+<meta name="citation_lastpage" content="192">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v49/awasthi16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Learning and 1-bit Compressed Sensing under Asymmetric Noise</h1>
+
+	<div id="authors">
+	
+		Pranjal Awasthi,
+	
+		Maria-Florina Balcan,
+	
+		Nika Haghtalab,
+	
+		Hongyang Zhang
+	<br />
+	</div>
+	<div id="info">
+		29th Annual Conference on Learning Theory,
+		pp. 152–192, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>We study the <em>approximate recovery</em> problem: Given corrupted <span class="math">\(1\)</span>-bit measurements of the form <span class="math">\(sign(w^* \cdot x_i)\)</span>, recover a vector <span class="math">\(w\)</span> that is a good approximation to <span class="math">\(w^* \in \Re^d\)</span>. This problem has been studied by both the learning theory and signal processing communities. In learning theory, this is known as the problem of <em>learning halfspaces with noise</em>, and in signal processing, as <em><span class="math">\(1\)</span>-bit compressed sensing</em>, in which there is an additional assumption that <span class="math">\(w^*\)</span> is <span class="math">\(t\)</span>-sparse. The challenge in both cases is to design computationally efficient algorithms that are tolerant to large amounts of noise under realistic noise models. Furthermore, in the case of 1-bit compressed sensing, we require the number of measurements <span class="math">\(x_i\)</span> to scale polynomially in <span class="math">\(t\)</span> and only polylogarithmically in <span class="math">\(d\)</span>, the ambient dimension. In this work, we introduce algorithms with nearly optimal guarantees for both problems under two realistic noise models, <em>bounded (Massart) noise</em> and <em>adversarial (agnostic) noise</em>, when the measurements <span class="math">\(x_i\)</span>’s are drawn from any isotropic log-concave distribution.</p>
+<p>In bounded (Massart) noise, an adversary can flip the measurement of each point <span class="math">\(x\)</span> with probability <span class="math">\(\eta(x)\leq \eta&lt; 1/2\)</span>. For this problem, we present an efficient algorithm that returns <span class="math">\(w\)</span> such that <span class="math">\(\| w- w^*\|_2 \leq \epsilon\)</span> in time <span class="math">\(poly(d, \frac 1 \epsilon)\)</span> for <em>any</em> constant <span class="math">\(\eta &lt; 1/2\)</span>. This improves significantly over the best known result of Awasthi et al. 2015, in this space that required the noise to be as small as <span class="math">\(\eta\approx 10^{-6}\)</span>. We then introduce an attribute-efficient variant of this algorithm for <span class="math">\(1\)</span>-bit compressed sensing that achieves the same guarantee with <span class="math">\(poly(t, \log(d), \frac 1 {\epsilon})\)</span> measurements when <span class="math">\(\|w^*\|_0\leq t\)</span>. For adversarial (agnostic) noise, where any <span class="math">\(\nu\)</span> fraction of measurements can be corrupted, we provide an algorithm that returns <span class="math">\(w\)</span> such that <span class="math">\(\|w-w^*\|_2 \leq O(\nu) + \epsilon\)</span>, with <span class="math">\(\tilde\Omega( \frac t {\epsilon^3}  \polylog(d))\)</span> measurements. Our results improve on the best known approximation results in this space and under some regimes improve on the sample complexity of the existing results. Furthermore, this is the first result of its kind in 1-bit compressed sensing that goes beyond the Gaussian marginal distribution and works for any isotrpic log-concave distribution.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="awasthi16.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

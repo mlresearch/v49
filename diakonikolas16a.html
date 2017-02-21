@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Optimal Learning via the Fourier Transform for Sums of Independent Integer Random Variables | COLT 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Optimal Learning via the Fourier Transform
+for Sums of Independent Integer Random Variables">
+
+  <meta name="citation_author" content="Diakonikolas, I.">
+
+  <meta name="citation_author" content="Kane, D. M.">
+
+  <meta name="citation_author" content="Stewart, A.">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="29th Annual Conference on Learning Theory">
+<meta name="citation_firstpage" content="831">
+<meta name="citation_lastpage" content="849">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v49/diakonikolas16a.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Optimal Learning via the Fourier Transform for Sums of Independent Integer Random Variables</h1>
+
+	<div id="authors">
+	
+		I. Diakonikolas,
+	
+		D. M. Kane,
+	
+		A. Stewart
+	<br />
+	</div>
+	<div id="info">
+		29th Annual Conference on Learning Theory,
+		pp. 831–849, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>We study the structure and learnability of sums of independent integer random variables (SIIRVs). For <span class="math">\(k \in \mathbb{Z}_{+}\)</span>, a <span><em><span class="math">\(k\)</span>-SIIRV of order <span class="math">\(n \in \mathbb{Z}_{+}\)</span></em></span> is the probability distribution of the sum of <span class="math">\(n\)</span> mutually independent random variables each supported on <span class="math">\(\{0, 1, \dots, k-1\}\)</span>. We denote by <span class="math">\({\cal S}_{n,k}\)</span> the set of all <span class="math">\(k\)</span>-SIIRVs of order <span class="math">\(n\)</span>.</p>
+<p>How many samples are required to learn an arbitrary distribution in <span class="math">\({\cal S}_{n,k}\)</span>? In this paper, we tightly characterize the sample and computational complexity of this problem. More precisely, we design a computationally efficient algorithm that uses <span class="math">\(\widetilde{O}(k/\epsilon^2)\)</span> samples, and learns an arbitrary <span class="math">\(k\)</span>-SIIRV within error <span class="math">\(\epsilon,\)</span> in total variation distance. Moreover, we show that the <span><em>optimal</em></span> sample complexity of this learning problem is <span class="math">\(\Theta((k/\epsilon^2)\sqrt{\log(1/\epsilon)}),\)</span> i.e., we prove an upper bound and a matching information-theoretic lower bound. Our algorithm proceeds by learning the Fourier transform of the target <span class="math">\(k\)</span>-SIIRV in its effective support. Its correctness relies on the <span><em>approximate sparsity</em></span> of the Fourier transform of <span class="math">\(k\)</span>-SIIRVs – a structural property that we establish, roughly stating that the Fourier transform of <span class="math">\(k\)</span>-SIIRVs has small magnitude outside a small set.</p>
+<p>Along the way we prove several new structural results about <span class="math">\(k\)</span>-SIIRVs. As one of our main structural contributions, we give an efficient algorithm to construct a sparse <span><em>proper</em></span> <span class="math">\(\epsilon\)</span>-cover for <span class="math">\({\cal S}_{n,k},\)</span> in total variation distance. We also obtain a novel geometric characterization of the space of <span class="math">\(k\)</span>-SIIRVs. Our characterization allows us to prove a tight lower bound on the size of <span class="math">\(\epsilon\)</span>-covers for <span class="math">\({\cal S}_{n,k}\)</span> – establishing that our cover upper bound is optimal – and is the key ingredient in our tight sample complexity lower bound.</p>
+<p>Our approach of exploiting the sparsity of the Fourier transform in distribution learning is general, and has recently found additional applications. In a subsequent work, we use a generalization of this idea to obtain the first computationally efficient learning algorithm for Poisson multinomial distributions. In a separate work, we build on our Fourier-based approach to obtain the fastest known proper learning algorithm for Poisson binomial distributions (<span class="math">\(2\)</span>-SIIRVs).</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="diakonikolas16a.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

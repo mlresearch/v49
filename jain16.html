@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Streaming PCA: Matching Matrix Bernstein and Near-Optimal Finite Sample Guarantees for Oja’s Algorithm | COLT 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Streaming PCA: Matching Matrix Bernstein and Near-Optimal Finite Sample Guarantees for Oja's Algorithm">
+
+  <meta name="citation_author" content="Jain, Prateek">
+
+  <meta name="citation_author" content="Jin, Chi">
+
+  <meta name="citation_author" content="Kakade, Sham M.">
+
+  <meta name="citation_author" content="Netrapalli, Praneeth">
+
+  <meta name="citation_author" content="Sidford, Aaron">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="29th Annual Conference on Learning Theory">
+<meta name="citation_firstpage" content="1147">
+<meta name="citation_lastpage" content="1164">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v49/jain16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Streaming PCA: Matching Matrix Bernstein and Near-Optimal Finite Sample Guarantees for Oja’s Algorithm</h1>
+
+	<div id="authors">
+	
+		Prateek Jain,
+	
+		Chi Jin,
+	
+		Sham M. Kakade,
+	
+		Praneeth Netrapalli,
+	
+		Aaron Sidford
+	<br />
+	</div>
+	<div id="info">
+		29th Annual Conference on Learning Theory,
+		pp. 1147–1164, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>In this paper we provide improved guarantees for streaming principal component analysis (PCA). Given <span class="math">\(A_1, \ldots, A_n\in \mathbb{R}^{d\times d}\)</span> sampled independently from distributions satisfying <span class="math">\(\mathbb{E}[A_i] = \Sigma\)</span> for <span class="math">\(\Sigma \succeq 0\)</span>, we present an <span class="math">\(O(d)\)</span>-space linear-time single-pass streaming algorithm for estimating the top eigenvector of <span class="math">\(\Sigma\)</span>. The algorithm nearly matches (and in certain cases improves upon) the accuracy obtained by the standard batch method that computes top eigenvector of the empirical covariance <span class="math">\(\frac{1}{n} \sum_{i \in [n]} A_i\)</span> as analyzed by the matrix Bernstein inequality. Moreover, to achieve constant accuracy, our algorithm improves upon the best previous known sample complexities of streaming algorithms by either a multiplicative factor of <span class="math">\(O(d)\)</span> or <span class="math">\(1/\mathrm{gap}\)</span> where <span class="math">\(\mathrm{gap}\)</span> is the relative distance between the top two eigenvalues of <span class="math">\(\Sigma\)</span>.</p>
+<p>We achieve these results through a novel analysis of the classic Oja’s algorithm, one of the oldest and perhaps, most popular algorithms for streaming PCA. We show that simply picking a random initial point <span class="math">\(w_0\)</span> and applying the natural update rule <span class="math">\(w_{i + 1} = w_i + \eta_i A_i w_i\)</span> suffices for suitable choice of <span class="math">\(\eta_i\)</span>. We believe our result sheds light on how to efficiently perform streaming PCA both in theory and in practice and we hope that our analysis may serve as the basis for analyzing many variants and extensions of streaming PCA.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="jain16.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

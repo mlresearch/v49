@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Dropping Convexity for Faster Semi-definite Optimization | COLT 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Dropping Convexity for Faster Semi-definite Optimization">
+
+  <meta name="citation_author" content="Bhojanapalli, Srinadh">
+
+  <meta name="citation_author" content="Kyrillidis, Anastasios">
+
+  <meta name="citation_author" content="Sanghavi, Sujay">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="29th Annual Conference on Learning Theory">
+<meta name="citation_firstpage" content="530">
+<meta name="citation_lastpage" content="582">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v49/bhojanapalli16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Dropping Convexity for Faster Semi-definite Optimization</h1>
+
+	<div id="authors">
+	
+		Srinadh Bhojanapalli,
+	
+		Anastasios Kyrillidis,
+	
+		Sujay Sanghavi
+	<br />
+	</div>
+	<div id="info">
+		29th Annual Conference on Learning Theory,
+		pp. 530–582, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>We study the minimization of a convex function <span class="math">\(f(X)\)</span> over the set of <span class="math">\(n \times n\)</span> positive semi-definite matrices, but when the problem is recast as <span class="math">\(\min_U g(U) :=  f(UU^\top)\)</span>, with <span class="math">\(U \in \mathbb{R}^{n \times r}\)</span> and <span class="math">\(r \leq n\)</span>. We study the performance of gradient descent on <span class="math">\(g\)</span>—which we refer to as Factored Gradient Descent (<span style="font-variant: small-caps;">Fgd</span>)—under standard assumptions on the <span><em>original</em></span> function <span class="math">\(f\)</span>.</p>
+<p>We provide a rule for selecting the step size and, with this choice, show that the <em>local</em> convergence rate of <span style="font-variant: small-caps;">Fgd</span> mirrors that of standard gradient descent on the original <span class="math">\(f\)</span>: <em>i.e.</em>, after <span class="math">\(k\)</span> steps, the error is <span class="math">\(O(1/k)\)</span> for smooth <span class="math">\(f\)</span>, and exponentially small in <span class="math">\(k\)</span> when <span class="math">\(f\)</span> is (restricted) strongly convex. In addition, we provide a procedure to initialize <span style="font-variant: small-caps;">Fgd</span> for (restricted) strongly convex objectives and when one only has access to <span class="math">\(f\)</span> via a first-order oracle; for several problem instances, such proper initialization leads to <em>global</em> convergence guarantees.</p>
+<p><span style="font-variant: small-caps;">Fgd</span> and similar procedures are widely used in practice for problems that can be posed as matrix factorization. To the best of our knowledge, this is the first paper to provide precise convergence rate guarantees for general convex functions under standard convex assumptions.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="bhojanapalli16.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>
