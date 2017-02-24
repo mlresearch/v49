@@ -35,6 +35,6 @@ issued:
   - 2016
   - 6
   - 6
-pdf: http://proceedings.mlr.press/v49/morgenstern16/morgenstern16.pdf
+pdf: http://proceedings.mlr.press/v49/morgenstern16.pdf
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---

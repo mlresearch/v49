@@ -50,6 +50,6 @@ issued:
   - 2016
   - 6
   - 6
-pdf: http://proceedings.mlr.press/v49/diakonikolas16b/diakonikolas16b.pdf
+pdf: http://proceedings.mlr.press/v49/diakonikolas16b.pdf
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---

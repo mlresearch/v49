@@ -43,6 +43,6 @@ issued:
   - 2016
   - 6
   - 6
-pdf: http://proceedings.mlr.press/v49/cesa-bianchi16/cesa-bianchi16.pdf
+pdf: http://proceedings.mlr.press/v49/cesa-bianchi16.pdf
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---
