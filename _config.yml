@@ -1,0 +1,54 @@
+---
+booktitle: 29th Annual Conference on Learning Theory
+shortname: COLT
+year: '2016'
+volume: 49
+published: 2016-06-06
+start: 2016-06-23
+end: 2016-06-26
+sections:
+- name: preface
+  title: Preface
+- name: default
+  title: Regular Papers
+- name: open
+  title: Open Problems
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: COLT2016
+month: 0
+abstract: ''
+editor:
+- given: Vitaly
+  family: Feldman
+- given: Alexander
+  family: Rakhlin
+- given: Ohad
+  family: Shamir
+title: 29th Annual Conference on Learning Theory
+email: ''
+description: 29th Annual Conference on Learning Theory, Columbia University, New York,
+  New York, USA
+url: http://proceedings.mlr.press
+baseurl: "/v49"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v49
+conference:
+  name: Conference on Learning Theory
+  url: http://www.learningtheory.org/colt2016/
+  location: Columbia University, New York, New York, USA
+  dates:
+  - 2016-06-23
+  - 2016-06-24
+  - 2016-06-25
+  - 2016-06-26
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v49.bib
