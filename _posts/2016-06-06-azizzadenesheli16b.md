@@ -27,6 +27,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: azizzadenesheli16b
 month: 0
+tex_title: 'Open Problem: Approximate Planning of POMDPs in the class of Memoryless
+  Policies'
 firstpage: 1639
 lastpage: 1642
 page: 1639-1642

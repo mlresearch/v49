@@ -19,6 +19,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: cesa-bianchi16
 month: 0
+tex_title: Delay and Cooperation in Nonstochastic Bandits
 firstpage: 605
 lastpage: 622
 page: 605-622

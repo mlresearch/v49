@@ -18,6 +18,8 @@ series: Proceedings of Machine Learning Research
 id: COLT2016
 month: 0
 abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
 editor:
 - given: Vitaly
   family: Feldman
@@ -25,7 +27,6 @@ editor:
   family: Rakhlin
 - given: Ohad
   family: Shamir
-title: Proceedings of Machine Learning Research
 description: |
   29th Annual Conference on Learning Theory
     Held in Columbia University, New York, New York, USA on 23-26 June 2016

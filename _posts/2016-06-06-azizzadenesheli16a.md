@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: azizzadenesheli16a
 month: 0
+tex_title: Reinforcement Learning of POMDPs using Spectral Methods
 firstpage: 193
 lastpage: 256
 page: 193-256

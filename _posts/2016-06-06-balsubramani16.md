@@ -17,6 +17,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: balsubramani16
 month: 0
+tex_title: Instance-dependent Regret Bounds for Dueling Bandits
 firstpage: 336
 lastpage: 360
 page: 336-360

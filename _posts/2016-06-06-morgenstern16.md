@@ -15,6 +15,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: morgenstern16
 month: 0
+tex_title: Learning Simple Auctions
 firstpage: 1298
 lastpage: 1318
 page: 1298-1318

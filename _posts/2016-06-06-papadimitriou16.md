@@ -18,6 +18,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: papadimitriou16
 month: 0
+tex_title: Cortical Computation via Iterative Constructions
 firstpage: 1357
 lastpage: 1375
 page: 1357-1375

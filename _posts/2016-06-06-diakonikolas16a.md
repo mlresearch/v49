@@ -32,6 +32,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: diakonikolas16a
 month: 0
+tex_title: Optimal Learning via the Fourier Transform for Sums of Independent Integer
+  Random Variables
 firstpage: 831
 lastpage: 849
 page: 831-849

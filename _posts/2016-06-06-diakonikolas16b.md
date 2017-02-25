@@ -28,6 +28,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: diakonikolas16b
 month: 0
+tex_title: Properly Learning Poisson Binomial Distributions in Almost Polynomial Time
 firstpage: 850
 lastpage: 878
 page: 850-878

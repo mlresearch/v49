@@ -18,6 +18,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: aliakbarpour16
 month: 0
+tex_title: Learning and Testing Junta Distributions
 firstpage: 19
 lastpage: 46
 page: 19-46

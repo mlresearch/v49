@@ -19,6 +19,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: bhojanapalli16
 month: 0
+tex_title: Dropping Convexity for Faster Semi-definite Optimization
 firstpage: 530
 lastpage: 582
 page: 530-582
