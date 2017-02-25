@@ -41,6 +41,7 @@ description: |
   Series Editors:
     Neil D. Lawrence
     Mark Reid
+date_str: 23--26 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v49"
 twitter_username: mlresearch
@@ -50,6 +51,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v49
+bibtex_copy: true
 email: ''
 conference:
   name: Conference on Learning Theory
