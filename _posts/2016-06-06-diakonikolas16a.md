@@ -37,7 +37,8 @@ tex_title: Optimal Learning via the Fourier Transform for Sums of Independent In
 firstpage: 831
 lastpage: 849
 page: 831-849
-sections: 
+order: 831
+cycles: false
 author:
 - given: I.
   family: Diakonikolas

@@ -23,7 +23,8 @@ tex_title: Delay and Cooperation in Nonstochastic Bandits
 firstpage: 605
 lastpage: 622
 page: 605-622
-sections: 
+order: 605
+cycles: false
 author:
 - given: Nicol‘o
   family: Cesa-Bianchi

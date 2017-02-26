@@ -21,7 +21,8 @@ tex_title: Instance-dependent Regret Bounds for Dueling Bandits
 firstpage: 336
 lastpage: 360
 page: 336-360
-sections: 
+order: 336
+cycles: false
 author:
 - given: Akshay
   family: Balsubramani

@@ -22,7 +22,8 @@ tex_title: Learning and Testing Junta Distributions
 firstpage: 19
 lastpage: 46
 page: 19-46
-sections: 
+order: 19
+cycles: false
 author:
 - given: Maryam
   family: Aliakbarpour

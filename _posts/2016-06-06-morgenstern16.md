@@ -19,7 +19,8 @@ tex_title: Learning Simple Auctions
 firstpage: 1298
 lastpage: 1318
 page: 1298-1318
-sections: 
+order: 1298
+cycles: false
 author:
 - given: Jamie
   family: Morgenstern

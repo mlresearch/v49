@@ -22,7 +22,8 @@ tex_title: Cortical Computation via Iterative Constructions
 firstpage: 1357
 lastpage: 1375
 page: 1357-1375
-sections: 
+order: 1357
+cycles: false
 author:
 - given: Christos
   family: Papadimitriou

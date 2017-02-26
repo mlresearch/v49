@@ -20,7 +20,8 @@ tex_title: Reinforcement Learning of POMDPs using Spectral Methods
 firstpage: 193
 lastpage: 256
 page: 193-256
-sections: 
+order: 193
+cycles: false
 author:
 - given: Kamyar
   family: Azizzadenesheli

@@ -32,7 +32,8 @@ tex_title: 'Open Problem: Approximate Planning of POMDPs in the class of Memoryl
 firstpage: 1639
 lastpage: 1642
 page: 1639-1642
-sections: 
+order: 1639
+cycles: false
 author:
 - given: Kamyar
   family: Azizzadenesheli

@@ -32,7 +32,8 @@ tex_title: Properly Learning Poisson Binomial Distributions in Almost Polynomial
 firstpage: 850
 lastpage: 878
 page: 850-878
-sections: 
+order: 850
+cycles: false
 author:
 - given: I.
   family: Diakonikolas

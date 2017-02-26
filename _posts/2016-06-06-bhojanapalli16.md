@@ -23,7 +23,8 @@ tex_title: Dropping Convexity for Faster Semi-definite Optimization
 firstpage: 530
 lastpage: 582
 page: 530-582
-sections: 
+order: 530
+cycles: false
 author:
 - given: Srinadh
   family: Bhojanapalli
