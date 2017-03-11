@@ -67,6 +67,7 @@ conference:
   - 2016-06-24
   - 2016-06-25
   - 2016-06-26
+  number: 29
 analytics:
   google:
     tracking_id: UA-92432422-1
