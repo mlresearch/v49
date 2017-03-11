@@ -17,9 +17,6 @@ layout: proceedings
 series: Proceedings of Machine Learning Research
 id: COLT2016
 month: 0
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Vitaly
@@ -28,6 +25,7 @@ editor:
   family: Rakhlin
 - given: Ohad
   family: Shamir
+title: Proceedings of Machine Learning Research
 description: |
   29th Annual Conference on Learning Theory
     Held in Columbia University, New York, New York, USA on 23-26 June 2016
@@ -45,7 +43,7 @@ description: |
 date_str: 23--26 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v49"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
@@ -57,6 +55,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -73,3 +72,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v49.bib
+---
